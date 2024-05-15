@@ -1,4 +1,4 @@
-body {
+body, html {
     font-family: 'Urbanist', sans-serif;
 }
 
@@ -87,6 +87,14 @@ nav .hamburger {
     margin-bottom: 20px;
 }
 
+#adventure .adventure-item.reservation .adventure-card {
+    background-image: url("../images/hotel-room.png");
+}
+
+#adventure .adventure-item.trip .adventure-card {
+    background-image: url("../images/trip-planning.png");
+}
+
 .adventure-card .card-items {
     margin-left: 40px;
     margin-right: 60px;
@@ -156,6 +164,11 @@ h4 {
     padding: 20px;
 }    
 
+.location-item .card-items h3 {
+    font-size:20px;
+    width:45%;
+}
+
 .location-item .card-items .heading {
     display:flex;
     justify-content: space-between;
@@ -200,7 +213,9 @@ footer {
 footer ul {
     display: flex;
     justify-content: space-around;
-    list-style-type: none;padding: 30px;
+    list-style-type: none;
+    padding: 30px;
+    margin: 0;
 }
 
 footer ul li a {
@@ -209,7 +224,7 @@ footer ul li a {
 }
 
 .back-top {
-    padding: 40px;
+    padding: 30px;
 }
 
 .back-top  img {
